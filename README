@@ -1,0 +1,27 @@
+REST API USING GO
+
+Simple RESTful API to create, read, update and delete books.
+No database implementation yet
+
+Quick Start
+# Install mux router
+go get -u github.com/gorilla/mux
+go build
+./go_restapi
+Endpoints
+Get All Records
+GET api/Records
+Get Single Record
+GET api/records/{id}
+Delete Record
+DELETE api/records/{id}
+Create Record
+POST api/records
+
+
+Update Book
+PUT api/books/{id}
+
+
+
+This project is licensed under the MIT License
